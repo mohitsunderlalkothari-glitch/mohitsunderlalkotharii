@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Kothari | Digital Marketer & E-commerce Entrepreneur</title>
+    <meta name="description" content="Digital Marketer and E-commerce Entrepreneur specializing in data-driven growth, dropshipping, and creative content strategy.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-red: #d32f2f;
+            --dark-grey: #1a1a1a;
+            --light-grey: #f4f4f4;
+            --text-main: #333;
+            --text-muted: #666;
+        }
+        
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--light-grey);
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 600px; /* Slightly wider to accommodate full resume text */
+        }
+        
+        /* Header Section */
+        .header { text-align: center; margin-bottom: 30px; }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        h1 { 
+            font-size: 1.8rem; 
+            margin: 0; 
+            color: var(--dark-grey); 
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            font-weight: 900;
+        }
+        .tagline { 
+            font-size: 0.9rem; 
+            color: var(--text-muted); 
+            margin-top: 5px; 
+            font-weight: bold; 
+            text-transform: uppercase;
+        }
+        .location { font-size: 0.85rem; color: #888; margin-top: 5px; }
+
+        /* Quick Links */
+        .links-container { display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px; }
+        .link-btn {
+            background: white;
+            color: var(--dark-grey);
+            padding: 14px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.2s;
+            border: 1px solid #eaeaea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            font-size: 0.95rem;
+        }
+        .link-btn:hover { background: #fafafa; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        .featured { background: var(--primary-red); color: white; border: none; }
+        .featured:hover { background: #b71c1c; color: white; }
+
+        /* Section Styling */
+        .section-title { 
+            font-size: 1.1rem; 
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            color: var(--dark-grey); 
+            margin: 35px 0 15px 0; 
+            font-weight: 900;
+            border-bottom: 2px solid var(--primary-red);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Cards for Info */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border-left: 4px solid var(--primary-red);
+            text-align: left;
+        }
+        .card-no-border { border-left: none; }
+        
+        .card h3 { margin: 0 0 5px 0; font-size: 1rem; color: var(--dark-grey); text-transform: uppercase; }
+        .card .date { font-size: 0.85rem; color: var(--primary-red); font-weight: bold; margin-bottom: 10px; display: block; }
+        .card p { font-size: 0.95rem; margin: 0 0 10px 0; color: var(--text-muted); }
+        .card ul { margin: 0; padding-left: 20px; font-size: 0.9rem; color: var(--text-muted); }
+        .card li { margin-bottom: 6px; }
+
+        /* Skills Tags */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .skill-tag {
+            background: var(--dark-grey);
+            color: white;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        /* Summary Text */
+        .summary-text {
+            font-size: 0.95rem;
+            text-align: justify;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        footer { text-align: center; margin-top: 40px; font-size: 0.8rem; color: #aaa; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <img src="profile.jpg" alt="Mohit Kothari" class="profile-img">
+            <h1>Mohit Kothari</h1>
+            <div class="tagline">Student | Digital Marketer | E-commerce Entrepreneur</div>
+            <div class="location"><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</div>
+        </div>
+
+        <div class="links-container">
+            <a href="resume.pdf" class="link-btn featured" target="_blank">
+                <i class="fas fa-file-pdf"></i> Download Full Resume
+            </a>
+            <a href="https://linkedin.com/in/mohitkothari" class="link-btn" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn Profile
+            </a>
+            <a href="https://wa.me/918799800272" class="link-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Let's chat on WhatsApp
+            </a>
+            <a href="mailto:mohitsunderlalkothari@gmail.com" class="link-btn">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+        </div>
+
+        <div class="section-title">About Me</div>
+        <div class="card card-no-border">
+            <p class="summary-text">
+                I'm a marketing student and entrepreneur who approaches digital growth with an engineering mindset. My journey began in AI & ML at PCCOE, but I quickly realized my real passion was in the business and creative side of technology—leading me to pivot to Digital Media Marketing at Symbiosis. <br><br>
+                I'm not just a student of theory; I'm a practitioner. I've spent the last few years hands-on in the creator economy, where I've built and managed my own e-commerce stores from scratch. By applying the logic I learned in engineering to SEO and social media algorithms, I've been able to generate over ₹10k in revenue through independent dropshipping and affiliate marketing. I'm a fast learner who thrives at the intersection of data and creativity, and I'm dedicated to building digital brands that don't just look good, but actually perform.
+            </p>
+        </div>
+
+        <div class="section-title">Core Skills</div>
+        <div class="card card-no-border">
+            <div class="skills-grid">
+                <span class="skill-tag">Digital Strategy</span>
+                <span class="skill-tag">Dropshipping & Affiliate Marketing</span>
+                <span class="skill-tag">Website Building</span>
+                <span class="skill-tag">SEO & SEM</span>
+                <span class="skill-tag">Social Media Marketing</span>
+                <span class="skill-tag">Analytics & Reporting</span>
+                <span class="skill-tag" style="background: var(--primary-red);">Strategic Thinking</span>
+                <span class="skill-tag" style="background: var(--primary-red);">Innovation</span>
+            </div>
+        </div>
+
+        <div class="section-title">Experience & Growth</div>
+        
+        <div class="card">
+            <h3>E-Commerce Entrepreneur — Founder</h3>
+            <span class="date">2022 - Present</span>
+            <ul>
+                <li>Founded and successfully scaled dropshipping operations.</li>
+                <li>Generated ₹10k+ revenue through targeted affiliate marketing.</li>
+                <li>Developed websites for digital marketing and sales conversion.</li>
+                <li>Managed client communication and digital content delivery.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Education & Growth (Symbiosis)</h3>
+            <span class="date">2025 - 2026</span>
+            <ul>
+                <li>Pursuing BBA in Digital Media Marketing with a focus on brand development.</li>
+                <li>Integrating academic theory with real-world application in e-commerce and affiliate marketing.</li>
+                <li>Mastering advanced media analytics and performance-oriented content strategy.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Education & Early Experience (PCCOE)</h3>
+            <span class="date">2024 - 2025</span>
+            <ul>
+                <li>Completed foundational technical training in AI & ML.</li>
+                <li>Successfully pivoted from Engineering to Business Management to pursue high-growth digital marketing ventures.</li>
+                <li>Applied analytical logic from technical studies to market research.</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Key Achievements</div>
+        <div class="card">
+            <ul>
+                <li><strong>Revenue Milestone:</strong> Turned over ₹10k+ revenue in Dropshipping and Affiliate marketing.</li>
+                <li><strong>Certification:</strong> Successfully passed "Fundamentals of Marketing" NPTEL Certification.</li>
+                <li><strong>Organic Growth:</strong> Built independent digital revenue streams through organic content.</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="card">
+            <h3>Bachelor's Degree (Pursuing)</h3>
+            <span class="date">2025 - 2028</span>
+            <p>Symbiosis Skills and Professional University</p>
+        </div>
+        <div class="card">
+            <h3>Engineering Coursework (AI & ML)</h3>
+            <span class="date">2024 - 2025</span>
+            <p>PCCOE Education Trust</p>
+        </div>
+
+        <footer>
+            Based in Pune, Maharashtra<br>
+            &copy; 2026 Mohit Kothari. All Rights Reserved.
+        </footer>
+        
+    </div>
+</body>
+</html>
